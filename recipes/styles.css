@@ -1,0 +1,61 @@
+* {
+  margin: auto;
+  height: auto;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.main {
+  color: #2272ff;
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  align-items: center;
+}
+h1 {
+  font-family: "Roboto";
+  /* color: #1a1005; */
+  font-size: 100px;
+}
+
+.nav {
+  color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe_list {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f8fafc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
